@@ -6,8 +6,6 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-  const foo = "bar";
-foo.substring(1); // "ar"
 
 }
 
