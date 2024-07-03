@@ -125,7 +125,9 @@ img{
 .topnav {
   width: 100%;
   overflow: hidden;
-  background-color: #333;
+  background-color: #00000035;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 2px 20px 0 #000;
   position: fixed;
   z-index: 999;
 }
@@ -153,10 +155,11 @@ img{
   top: 0;
 }
 
+
+
 /* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: #00abf0;
+.topnav a span{
+  color: #1F9EE5;
 }
 
 /* Style the active link (or home/logo) */
@@ -179,7 +182,9 @@ img{
 
 
 
-
+@media (width = 477px) {
+  
+}
 
 
 
@@ -187,17 +192,14 @@ img{
   header {
     display: none;
   }
-  header{
-    width: 4px;
+  .footere{
+    display: none;
   }
-
+ 
 }
 
 @media (width = 1024px) {
-  header .logo{
-    margin-left: 150px;
-    width: 650px;
-  }
+
   .container img{
     margin-left: 50px;
     margin-top: 250px;
@@ -215,13 +217,6 @@ img{
 
 /* header  */
 
-@media (width < 400px) {
-  header .logo{
-   margin-left: 30px;
-   font-size: 1rem;
-  }
-  
-}
 
 
 
@@ -253,23 +248,8 @@ img{
 
 
 
-@media (width = 360px) {
-  header .logo{
-    margin-left: 50px;
-  }
-}
 
 
-
-
-
-@media (width = 430px) {
-  header .logo{
-    margin-left: 50px;
-    width:  250px;
-    font-size: 25px;
-  }
-}
 
 
 
@@ -351,12 +331,15 @@ body{
 }
 .circle .face img{
   width: 35px;
+
 }
 .circle .tweeter img{
   width: 40px;
+
 }
 .circle .what img{
   width: 35px;
+
 }
 .circle a img {
   margin-left: 350px;
@@ -424,7 +407,7 @@ body{
 
 /* modifier body*/
 
-@media (width < 1075px) {
+@media (width < 1175px) {
   .container{
     display: none;
   }
@@ -588,7 +571,6 @@ body{
 >>>>>>>>*/
 #contact{
   width: 100%;
- 
   height: 100vh;
 }
 
@@ -694,137 +676,102 @@ body{
 /*
 end of contact section
 */
-.footer{
-  position: relative;
-  top: 23px;
-  width: 100%;
-  height: 40vh;
-  display: flex;
-  border-top: 1px solid #a6aab0;
-  background: #ffffff;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  margin-top: 212px
 }
 
-/*footer info*/
 
 
-
-.titl{
+.footere{
+  background-color: #ededed;
+  color: #081b29;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  height: 45px;
   display: flex;
-  justify-content: start;
-  font-size: 1.4rem;
-  font-weight: 500;
-  text-align: start;
-  margin-top: -25px;
-  margin-bottom: -50px;
-  color: #000000;
-  background-color: transparent;
-  height: 80px;
-  align-items: start;
+  font-weight: 700;
+  justify-content: space-between;
 }
 
-.titl span{
+.footere-title{
+  font-size: 1.3em;
+}
+
+.footere-title span{
   color: #1F9EE5;
 }
 
-
-
-.info{
-  width: 30%;
-  height: 30vh;
-  margin: 45px;
-  display: flex;
-  flex-direction: column;
-}
-
-.go-up{
-  width: 30%;
-  height: 30vh;
-  margin-top: 45px;
- 
-}
-
-.social{
-
-  width: 30%;
-  height:30vh;
-  margin: 45px;
-}
-
-.numb a{
-  text-decoration: none;
-  color: #000;
-  margin-left: 25px;
-  transition: .2s ease-in-out;
-
-}
-.locat a{
-  text-decoration: none;
-  color: #000;
-  margin-left: 25px;
-}
-
-.emai a{
-  text-decoration: none;
-  color: #000;
-  margin-left: 25px;
-  transition: .2s ease-in-out;
-
-}
-
-.info img{
-  margin-left: 25px;
-  margin-top: 30px;
-}
-
-.go-up a{
-  text-decoration: none;
-  color: #000;
-  margin-left: 25px; 
-  transition: .2s ease-in-out;
-}
-
-.go-up img{
-  margin-left: 25px;
-  margin-top: 10px;
-}
-.go-up a:hover{
-  color: #1F9EE5;
-}
-
-.social img{
-  background-color: #a6aab0;
-  width: 35px;
-  border-radius: 100%;
-  margin-left: 25px;
-  margin-top: 10px;
-}
-
-.social a{
-  text-decoration: none;
-  color: #000;
-  margin-left: 25px; 
-  transition: .2s ease-in-out;
-}
-.social a:hover{
-  color: #1F9EE5;
-}
-
-.locate{
-  width: 5px;
-  background-color: #1F9EE5;
-  height: 50%;
-  margin-top: 50px;
-  margin-right: 155px;
-  border: none;
-  border-radius: 10px;
-}
-
-.sos{
-  width: 5px;
-  background-color: #1F9EE5;
-  height: 50%;
-  margin-top: 50px;
-  border: none;
-  margin-right: 50px;
-  border-radius: 10px;
+.footere .social-icons a{
+font-size: 1.3em;
+color: #081b29;
+padding: 0 12px 0 0;
 }
