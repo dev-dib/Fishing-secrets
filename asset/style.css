@@ -859,7 +859,7 @@ footer{
   text-align: center;
   align-items: center;
   height: 45px;
-  margin-top: 410px;
+  margin-top: 213px;
   display: flex;
   font-weight: 700;
   justify-content: space-between;
@@ -1169,3 +1169,133 @@ padding: 0 12px 0 0;
     width: 180px;
   }
 }
+
+
+
+
+
+
+
+@media (width < 1560px) {
+  .footere{
+    height: 30px;
+    margin-top: 239px;
+    font-size: 14px;
+  }
+  .content{
+    height: 100vh;
+  }
+  .foootere-copy{
+    font-size: 22px;
+  }
+  .footere-title{
+  font-size: 23px;
+  }
+  .social-icons{
+    width: 280px;
+  }
+}
+
+
+
+@media (width < 925px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 22px;
+  }
+  .footere-title{
+  font-size: 23px;
+  }
+  .social-icons{
+    width: 280px;
+  }
+}
+
+
+
+
+
+@media (width < 832px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 18px;
+  }
+  .footere-title{
+  font-size: 16px;
+  }
+  .social-icons{
+    width: 280px;
+  }
+}
+
+
+
+
+@media (width < 710px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 18px;
+  }
+  .footere-title{
+  font-size: 0px;
+  }
+  .social-icons{
+    width: 280px;
+  }
+}
+
+
+
+@media (width < 515px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 13px;
+  }
+  .footere-title{
+  font-size: 0px;
+  }
+  .social-icons{
+    width: 180px;
+  }
+  #Brands{
+    width: 102%;
+  }
+  #Products{
+    width: 102%;
+  }
+  #Contact{
+    width: 102%;
+  }
+  .footere{
+    width: 93%;
+  }
+}
+
