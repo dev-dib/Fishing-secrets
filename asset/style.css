@@ -142,7 +142,7 @@ img{
 
 /* Style navigation menu links */
 .topnav a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -168,8 +168,8 @@ img{
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #081b29;
-  color: white;
+  background-color: #c5cfd7;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   font-weight: 600;
   font-size: 32px;
@@ -688,7 +688,7 @@ body{
 }
 
 
-@media (width < 375px) {
+@media (width < 380px) {
   .card{
     width: 12em;
     height: 280px;
@@ -886,16 +886,139 @@ padding: 0 12px 0 0;
 
 
 
-@media (width = 375px) {
+
+
+
+
+
+
+
+@media (width < 1560px) {
   .footere{
-    margin-top: 412px;
+    height: 30px;
+    margin-top: 239px;
+    font-size: 14px;
   }
-  .footere .social-icons a{
-font-size: 1em;
-color: #081b29;
-padding: 0 12px 0 0;
+  .content{
+    height: 100vh;
+  }
+  .foootere-copy{
+    font-size: 22px;
+  }
+  .footere-title{
+  font-size: 23px;
+  }
+  .social-icons{
+    width: 280px;
+  }
 }
+
+
+
+@media (width < 925px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 22px;
+  }
+  .footere-title{
+  font-size: 23px;
+  }
+  .social-icons{
+    width: 280px;
+  }
 }
+
+
+
+
+
+@media (width < 832px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 18px;
+  }
+  .footere-title{
+  font-size: 16px;
+  }
+  .social-icons{
+    width: 280px;
+  }
+}
+
+
+
+
+@media (width < 710px) {
+  .footere{
+    height: 30px;
+    margin-top: 520px;
+    font-size: 14px;
+  }
+  .content{
+    height: 150vh;
+  }
+  .foootere-copy{
+    font-size: 18px;
+  }
+  .footere-title{
+  font-size: 0px;
+  }
+  .social-icons{
+    width: 280px;
+  }
+}
+
+
+
+@media (width < 515px) {
+
+  .foootere-copy{
+    font-size: 12px;
+  }
+  .footere-title{
+  font-size: 0px;
+  }
+  .social-icons{
+    width: 130px;
+  }
+  header{
+    width: 95%;
+  }
+  #Home{
+    width: 100%;
+  }
+  #Brands{
+    width: 100%;
+  }
+  #Products{
+    width: 100%;
+  }
+  #Contact{
+    width: 100%;
+  }
+  .footere{
+    width: 92%;
+  }
+}
+
+
+
+
+
 
 
 
@@ -903,10 +1026,12 @@ padding: 0 12px 0 0;
 @media (width = 375px) {
   .footere{
     height: 30px;
-    margin-top: 428px;
     font-size: 14px;
+    margin-top: 562px;
   }
-
+  .content{
+    height: 150vh;
+  }
   .footere-title{
   font-size: 0px;
   }
@@ -918,11 +1043,14 @@ padding: 0 12px 0 0;
 
 
 @media (width = 414px) {
+
   .footere{
-    height: 30px;
-    margin-top: 250px;
-    font-size: 14px;
+    margin-top: 694px;
   }
+  .contact{
+    height: 90vh;
+  }
+
   .foootere-copy{
     font-size: 16px;
   }
@@ -941,6 +1069,9 @@ padding: 0 12px 0 0;
     height: 30px;
     margin-top: 250px;
     font-size: 14px;
+  }
+  .content{
+    height: 100vh;
   }
   .foootere-copy{
     font-size: 16px;
@@ -963,6 +1094,10 @@ padding: 0 12px 0 0;
     margin-top: 250px;
     font-size: 14px;
   }
+.content{
+  height: 100vh;
+}
+
   .foootere-copy{
     font-size: 16px;
   }
@@ -983,6 +1118,12 @@ padding: 0 12px 0 0;
     margin-top: 250px;
     font-size: 14px;
   }
+
+  .content{
+    height: 100vh;
+  }
+
+
   .foootere-copy{
     font-size: 16px;
   }
@@ -1026,7 +1167,13 @@ padding: 0 12px 0 0;
   .footere{
     height: 30px;
     font-size: 14px;
+    margin-top: 270px;
   }
+
+.content{
+  height: 100vh;
+}
+
   .foootere-copy{
     font-size: 21px;
   }
@@ -1046,6 +1193,12 @@ padding: 0 12px 0 0;
     margin-top: 280px;
     font-size: 14px;
   }
+
+  .content{
+    height: 100vh;
+  }
+
+
   .foootere-copy{
     font-size: 18px;
   }
@@ -1062,9 +1215,14 @@ padding: 0 12px 0 0;
 @media (width = 912px) {
   .footere{
     height: 30px;
-    margin-top: 100px;
+    margin-top: 285px;
     font-size: 14px;
   }
+
+.content{
+  height: 100vh;
+}
+
   .foootere-copy{
     font-size: 18px;
   }
@@ -1083,6 +1241,12 @@ padding: 0 12px 0 0;
     margin-top: 290px;
     font-size: 14px;
   }
+
+.content{
+  height: 100vh;
+}
+
+
   .foootere-copy{
     font-size: 18px;
   }
@@ -1101,6 +1265,11 @@ padding: 0 12px 0 0;
     margin-top: 290px;
     font-size: 14px;
   }
+
+.content{
+  height: 100vh;
+}
+
   .foootere-copy{
     font-size: 14px;
   }
@@ -1116,9 +1285,14 @@ padding: 0 12px 0 0;
 @media (width = 853px) {
   .footere{
     height: 30px;
-    margin-top: 190px;
+    margin-top: 275px;
     font-size: 14px;
   }
+
+.content{
+  height: 100vh;
+}
+
   .foootere-copy{
     font-size: 18px;
   }
@@ -1135,9 +1309,15 @@ padding: 0 12px 0 0;
 @media (width = 1024px) {
   .footere{
     height: 30px;
-    margin-top: 250px;
+    margin-top: 285px;
     font-size: 14px;
   }
+
+  .content{
+    height: 100vh;
+  }
+
+
   .foootere-copy{
     font-size: 18px;
   }
@@ -1164,127 +1344,6 @@ padding: 0 12px 0 0;
   }
   .social-icons{
     width: 180px;
-  }
-}
-
-
-
-
-
-
-
-@media (width < 1560px) {
-  .footere{
-    height: 30px;
-    margin-top: 239px;
-    font-size: 14px;
-  }
-  .content{
-    height: 100vh;
-  }
-  .foootere-copy{
-    font-size: 22px;
-  }
-  .footere-title{
-  font-size: 23px;
-  }
-  .social-icons{
-    width: 280px;
-  }
-}
-
-
-
-@media (width < 925px) {
-  .footere{
-    height: 30px;
-    margin-top: 520px;
-    font-size: 14px;
-  }
- 
-  .foootere-copy{
-    font-size: 22px;
-  }
-  .footere-title{
-  font-size: 23px;
-  }
-  .social-icons{
-    width: 280px;
-  }
-}
-
-
-
-
-
-@media (width < 832px) {
-  .footere{
-    height: 30px;
-    margin-top: 520px;
-    font-size: 14px;
-  }
-  
-  .foootere-copy{
-    font-size: 18px;
-  }
-  .footere-title{
-  font-size: 16px;
-  }
-  .social-icons{
-    width: 280px;
-  }
-}
-
-
-
-
-@media (width < 710px) {
-  .footere{
-    height: 30px;
-    margin-top: 520px;
-    font-size: 14px;
-  }
- 
-  .foootere-copy{
-    font-size: 18px;
-  }
-  .footere-title{
-  font-size: 0px;
-  }
-  .social-icons{
-    width: 280px;
-  }
-}
-
-
-
-@media (width < 515px) {
-  .footere{
-    height: 30px;
-    margin-top: 520px;
-    font-size: 14px;
-  }
- 
-  .foootere-copy{
-    font-size: 13px;
-  }
-  .footere-title{
-  font-size: 0px;
-  }
-  .social-icons{
-    width: 180px;
-  }
-  #Brands{
-    width: 102%;
-  }
-  #Products{
-    width: 102%;
-  }
-  #Contact{
-    width: 102%;
-  }
-  .footere{
-    width: 93%;
   }
 }
 
