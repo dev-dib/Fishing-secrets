@@ -1143,10 +1143,12 @@ padding: 0 12px 0 0;
 
 
 
+
+
 @media (width = 360px) {
   .footere{
     height: 30px;
-    margin-top: 460px;
+    margin-top: 300px;
     font-size: 14px;
   }
   .content{
