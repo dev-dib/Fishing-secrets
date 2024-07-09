@@ -974,7 +974,7 @@ padding: 0 12px 0 0;
     font-size: 14px;
   }
   .content{
-    height: 150vh;
+    height: 100vh;
   }
   .foootere-copy{
     font-size: 18px;
@@ -986,7 +986,6 @@ padding: 0 12px 0 0;
     width: 280px;
   }
 }
-
 
 
 @media (width < 515px) {
