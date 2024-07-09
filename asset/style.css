@@ -138,6 +138,10 @@ img{
 
 #myLinks a{
   color: #000;
+  margin-left: 15px;
+}
+#myLinks .login{
+  border: none;
 }
 
 /* Style navigation menu links */
@@ -1142,7 +1146,7 @@ padding: 0 12px 0 0;
 @media (width = 360px) {
   .footere{
     height: 30px;
-    margin-top: 385px;
+    margin-top: 460px;
     font-size: 14px;
   }
   .content{
@@ -1282,11 +1286,6 @@ padding: 0 12px 0 0;
   }
 }
 
-@media (width = 360px) {
-  .footere{
-    margin-top: 450px;
-  }
-}
 
 
 @media (width = 853px) {
