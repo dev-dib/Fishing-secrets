@@ -1116,18 +1116,15 @@ padding: 0 12px 0 0;
 
 
 
-@media (width = 412px) {
+@media (width = 360px) {
   .footere{
     height: 30px;
-    margin-top: 250px;
+    margin-top: 400px;
     font-size: 14px;
   }
-
   .content{
-    height: 100vh;
+    height: 120vh;
   }
-
-
   .foootere-copy{
     font-size: 16px;
   }
@@ -1138,8 +1135,6 @@ padding: 0 12px 0 0;
     width: 80px;
   }
 }
-
-
 
 
 
