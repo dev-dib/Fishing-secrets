@@ -861,6 +861,7 @@ footer{
   height: 45px;
   margin-top: 213px;
   display: flex;
+  border-top: 1px solid #4d4d4d74;
   font-weight: 700;
   justify-content: space-between;
 }
@@ -1278,6 +1279,12 @@ padding: 0 12px 0 0;
   }
   .social-icons{
     width: 80px;
+  }
+}
+
+@media (width = 360px) {
+  .footere{
+    margin-top: 450px;
   }
 }
 
